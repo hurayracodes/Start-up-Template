@@ -1136,7 +1136,8 @@ footer .footer-3 h3 {
     margin-top: 5rem;
   }
   .choose-us h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
+    width: 468px;
   }
   .services .service-boxs .service-box h4 {
     text-align: center;
@@ -1251,7 +1252,25 @@ footer .footer-3 h3 {
     font-size: 0.9rem;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   }
-
+  .about h1 {
+    font-size: 1.7rem;
+  }
+  .about-section .about .about-info p{
+    font-size: 0.91rem;
+  }
+  .about-section .about .about-us-support{
+    flex-direction: column;
+    font-size: 0.91rem;
+    text-align: center;
+    gap: 1rem;
+  }
+  .call-to-ask{
+    gap: 1rem;
+    font-size: 0.88rem;
+  }
+  .call-to-ask .btn{
+    text-align: center;
+  }
   .choose-us .choose-us-boxs {
     flex-direction: column;
     gap: 2rem;
@@ -1264,23 +1283,47 @@ footer .footer-3 h3 {
   .choose-us .choose-us-boxs .choose-us-left,
   .choose-us .choose-us-boxs .choose-us-right {
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
   }
   .services {
     margin-top: 6rem;
   }
-  .services .service-boxs .service-box {
-    width: 432px;
-    height: 379px;
+  .contact-us {
+    margin-top: 8rem;
   }
-  .testimonials{
+
+  .testimonials {
     height: fit-content;
   }
-}
-@media screen and (max-width: 575px) {
-  body {
-    overflow-x: hidden;
+  .testimonials .clinets .clinet {
+    width: 70%;
+    padding: 70px;
   }
+  .clinets .clinet:nth-child(2),
+  .clinets .clinet:nth-child(3) {
+    display: none;
+  }
+  .team-members {
+    margin-top: 8rem;
+  }
+  .footer .footer-info-box .logo{
+    font-size: 1.7rem;
+  }
+  .footer .footer-info-box p{
+    font-size: 0.78rem;
+  }
+  .footer footer h3{
+    font-size: 0.88rem;
+  }
+    .footer footer{
+      justify-content: center;
+      align-items: center;
+    }
+}
+@media screen and (max-width: 550px) {
+
   .about-section .about {
     flex-direction: column;
   }
@@ -1295,7 +1338,7 @@ footer .footer-3 h3 {
     align-items: center;
   }
   .choose-us {
-    margin-top: 23rem;
+    margin-top: 8rem;
   }
   .choose-us .choose-us-boxs {
     justify-content: center;
@@ -1316,7 +1359,7 @@ footer .footer-3 h3 {
   .testimonials {
     margin-top: 5rem;
   }
-  .team-members{
+  .team-members {
     margin-top: 8rem;
   }
   .team-box {
@@ -1326,16 +1369,16 @@ footer .footer-3 h3 {
     justify-content: center;
   }
   .team-members .team-boxs .team-box .team-img {
-        width: 163px;
-        height: 168px;
-    }
-    .team-members .team-boxs .team-box .team-info h3{
-      font-size: 1.4rem;
-    }
-    .team-members .team-boxs .team-box .team-info h5{
-      font-size: 1rem;
-    }
-  .team-members .team-boxs .team-box .team-img .social-media i{
+    width: 163px;
+    height: 168px;
+  }
+  .team-members .team-boxs .team-box .team-info h3 {
+    font-size: 1.4rem;
+  }
+  .team-members .team-boxs .team-box .team-info h5 {
+    font-size: 1rem;
+  }
+  .team-members .team-boxs .team-box .team-img .social-media i {
     width: 1.7rem;
     height: 1.7rem;
     display: flex;
@@ -1376,5 +1419,4 @@ footer .footer-3 h3 {
     height: 18px;
     font-size: 0.59rem;
   }
-
 }
