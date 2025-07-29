@@ -1279,7 +1279,7 @@ footer .footer-3 h3 {
 }
 @media screen and (max-width: 575px) {
   body {
-    background-color: green;
+    overflow-x: hidden;
   }
   .about-section .about {
     flex-direction: column;
