@@ -1294,7 +1294,7 @@ footer .footer-3 h3 {
     font-size: 0.9rem;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   }
-  .cards{
+  .cards {
     width: 400px;
     position: relative;
   }
@@ -1415,8 +1415,12 @@ footer .footer-3 h3 {
   .header-parent {
     display: none;
   }
+  .cards .card:nth-child(2) {
+    width: 10rem;
+    height: 4rem;
+    margin-top: 2rem;
+  }
 
- 
   .about-section .about {
     flex-direction: column;
     height: fit-content;
@@ -1507,7 +1511,6 @@ footer .footer-3 h3 {
   }
 }
 @media screen and (max-width: 530px) {
-
   main {
     height: 60vh;
   }
@@ -1521,20 +1524,15 @@ footer .footer-3 h3 {
     padding: 6px 10px;
     font-size: 0.8rem;
   }
-    .hero-section .hero-info-box h5 {
+  .hero-section .hero-info-box h5 {
     font-size: 10px;
   }
   .hero-section .hero-info-box h1 {
     font-size: 1.1rem;
   }
-   .cards {
+  .cards {
     gap: 1rem;
     display: none;
-  }
-    .cards .card:nth-child(2) {
-    width: 10rem;
-    height: 4rem;
-    margin-top: 2rem;
   }
 
   .about-section .about .about-info h5 {
