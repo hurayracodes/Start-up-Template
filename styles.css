@@ -1296,6 +1296,7 @@ footer .footer-3 h3 {
   }
   .cards{
     width: 400px;
+    position: relative;
   }
   .cards .card {
     padding: 5px 8px;
