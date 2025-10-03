@@ -838,7 +838,6 @@ nav .navLinks ul button:hover {
   flex-direction: column;
   gap: 2rem;
   padding-bottom: 2rem;
-  background: red;
   background: #eef9ff;
 }
 .team-members .team-boxs .team-box .team-img {
