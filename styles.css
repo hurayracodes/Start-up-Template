@@ -979,7 +979,7 @@ nav .navLinks ul button:hover {
   width: 60%;
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .footer footer .footer-1 {
